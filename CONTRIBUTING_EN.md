@@ -1,6 +1,6 @@
 # Contributing Guide
 
-Thank you for your interest in awsome-softwaredocs-skill! We welcome Issue submissions and Pull Requests.
+Thank you for your interest in awesome-softwaredocs-skill! We welcome Issue submissions and Pull Requests.
 
 ---
 
@@ -8,7 +8,7 @@ Thank you for your interest in awsome-softwaredocs-skill! We welcome Issue submi
 
 ```
 skills/
-└── awsome-softwaredocs-skill/
+└── awesome-softwaredocs-skill/
     ├── SKILL.md                      # Skill definition
     └── templates/                    # Template directory
         ├── zh/                       # Chinese templates
@@ -25,7 +25,7 @@ skills/
 
 ## Adding New Document Templates
 
-Add corresponding new `.md` files in `skills/awsome-softwaredocs-skill/templates/zh/docs/` and `skills/awsome-softwaredocs-skill/templates/en/docs/`.
+Add corresponding new `.md` files in `skills/awesome-softwaredocs-skill/templates/zh/docs/` and `skills/awesome-softwaredocs-skill/templates/en/docs/`.
 
 ### File Format Requirements
 
@@ -77,7 +77,7 @@ Content...
 
 ## Adding New UML Diagram Templates
 
-Add corresponding new `.md` files in `skills/awsome-softwaredocs-skill/templates/zh/uml-diagrams/` and `skills/awsome-softwaredocs-skill/templates/en/uml-diagrams/`.
+Add corresponding new `.md` files in `skills/awesome-softwaredocs-skill/templates/zh/uml-diagrams/` and `skills/awesome-softwaredocs-skill/templates/en/uml-diagrams/`.
 
 ### File Format Requirements
 
@@ -192,8 +192,8 @@ Closes #123
 
 ## Feedback
 
-- **Bug Reports**: Create an [Issue](https://github.com/Freakz2z/awsome-softwaredocs-skill/issues)
-- **Feature Suggestions**: Create a [Discussion](https://github.com/Freakz2z/awsome-softwaredocs-skill/discussions)
+- **Bug Reports**: Create an [Issue](https://github.com/Freakz2z/awesome-softwaredocs-skill/issues)
+- **Feature Suggestions**: Create a [Discussion](https://github.com/Freakz2z/awesome-softwaredocs-skill/discussions)
 - **Code Contributions**: Submit a Pull Request
 
 ---

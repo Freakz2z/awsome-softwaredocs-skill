@@ -1,10 +1,10 @@
 ---
-name: awsome-softwaredocs-skill
+name: awesome-softwaredocs-skill
 description: 帮助零基础用户生成专业软件工程文档和UML图表（触发词：生成文档、软件开发、一步步做、一步到位、做个软件、开发App、构建软件、软件工程）
 version: 1.1.0
 ---
 
-# awsome-softwaredocs-skill
+# awesome-softwaredocs-skill
 
 专业的软件工程文档生成技能，帮助零基础用户生成符合工业标准的软件工程文档和UML图表。
 
@@ -15,7 +15,7 @@ version: 1.1.0
 ### 第一步：语言选择（必须）
 
 ```
-您好！欢迎使用 awsome-softwaredocs-skill！
+您好！欢迎使用 awesome-softwaredocs-skill！
 
 请选择您希望使用的语言 / Please select your preferred language:
 1. 中文 (Chinese)

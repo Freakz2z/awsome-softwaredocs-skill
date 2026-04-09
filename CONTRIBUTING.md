@@ -1,6 +1,6 @@
 # 贡献指南
 
-感谢你对 awsome-softwaredocs-skill 的关注！欢迎提交 Issue 和 Pull Request。
+感谢你对 awesome-softwaredocs-skill 的关注！欢迎提交 Issue 和 Pull Request。
 
 ---
 
@@ -8,7 +8,7 @@
 
 ```
 skills/
-└── awsome-softwaredocs-skill/
+└── awesome-softwaredocs-skill/
     ├── SKILL.md                      # 技能定义
     └── templates/                    # 模板目录
         ├── zh/                       # 中文模板
@@ -25,7 +25,7 @@ skills/
 
 ## 添加新文档模板
 
-在 `skills/awsome-softwaredocs-skill/templates/zh/docs/` 和 `skills/awsome-softwaredocs-skill/templates/en/docs/` 目录下添加对应的新 `.md` 文件。
+在 `skills/awesome-softwaredocs-skill/templates/zh/docs/` 和 `skills/awesome-softwaredocs-skill/templates/en/docs/` 目录下添加对应的新 `.md` 文件。
 
 ### 文件格式要求
 
@@ -77,7 +77,7 @@ skills/
 
 ## 添加新 UML 图表模板
 
-在 `skills/awsome-softwaredocs-skill/templates/zh/uml-diagrams/` 和 `skills/awsome-softwaredocs-skill/templates/en/uml-diagrams/` 目录下添加对应的新 `.md` 文件。
+在 `skills/awesome-softwaredocs-skill/templates/zh/uml-diagrams/` 和 `skills/awesome-softwaredocs-skill/templates/en/uml-diagrams/` 目录下添加对应的新 `.md` 文件。
 
 ### 文件格式要求
 
@@ -192,8 +192,8 @@ Closes #123
 
 ## 问题反馈
 
-- **Bug 报告**：创建 [Issue](https://github.com/Freakz2z/awsome-softwaredocs-skill/issues)
-- **功能建议**：创建 [Discussion](https://github.com/Freakz2z/awsome-softwaredocs-skill/discussions)
+- **Bug 报告**：创建 [Issue](https://github.com/Freakz2z/awesome-softwaredocs-skill/issues)
+- **功能建议**：创建 [Discussion](https://github.com/Freakz2z/awesome-softwaredocs-skill/discussions)
 - **贡献代码**：提交 Pull Request
 
 ---

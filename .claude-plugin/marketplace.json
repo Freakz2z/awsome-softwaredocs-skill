@@ -6,8 +6,8 @@
   },
   "plugins": [
     {
-      "name": "awsome-softwaredocs-skill",
-      "source": "./skills/awsome-softwaredocs-skill",
+      "name": "awesome-softwaredocs-skill",
+      "source": "./skills/awesome-softwaredocs-skill",
       "description": "帮助零基础用户生成专业软件工程文档和UML图表，支持中英文、一步步走模式和一步到位模式",
       "version": "1.1.0"
     }

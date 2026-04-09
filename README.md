@@ -1,6 +1,6 @@
 <div align="center">
 
-# awsome-softwaredocs-skill
+# awesome-softwaredocs-skill
 
 **专业的软件工程技能** — 从零开始构建符合工业标准的软件项目
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 为什么使用 awsome-softwaredocs-skill？
+## 为什么使用 awesome-softwaredocs-skill？
 
 | 场景 | 没有它 | 使用它 |
 |------|--------|--------|
@@ -49,21 +49,21 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/Freakz2z/awsome-softwaredocs-skill.git
+git clone https://github.com/Freakz2z/awesome-softwaredocs-skill.git
 
 # 安装技能
 mkdir -p ~/.claude/skills
-cp -r awsome-softwaredocs-skill/skills/awsome-softwaredocs-skill ~/.claude/skills/
+cp -r awesome-softwaredocs-skill/skills/awesome-softwaredocs-skill ~/.claude/skills/
 ```
 
 ### 方式二：从插件市场安装
 
 ```bash
 # 1. 添加插件市场
-/plugin marketplace add https://github.com/Freakz2z/awsome-softwaredocs-skill
+/plugin marketplace add https://github.com/Freakz2z/awesome-softwaredocs-skill
 
 # 2. 安装技能
-/plugin install awsome-softwaredocs-skill@awsome-softwaredocs-market
+/plugin install awesome-softwaredocs-skill@awesome-softwaredocs-market
 ```
 
 ## 使用方法
@@ -79,12 +79,12 @@ cp -r awsome-softwaredocs-skill/skills/awsome-softwaredocs-skill ~/.claude/skill
 ## 项目结构
 
 ```
-awsome-softwaredocs-skill/
+awesome-softwaredocs-skill/
 ├── .claude-plugin/
 │   ├── marketplace.json      # 市场配置
 │   └── plugin.json           # 插件配置
 ├── skills/
-│   └── awsome-softwaredocs-skill/
+│   └── awesome-softwaredocs-skill/
 │       ├── SKILL.md          # 技能定义
 │       └── templates/         # 模板目录
 │           ├── zh/            # 中文模板
@@ -156,4 +156,4 @@ MIT License · Copyright (c) 2026
 
 ## 如果有帮助，请给个 ⭐
 
-如果你觉得 awsome-softwaredocs-skill 对你有帮助，欢迎给个 Star！
+如果你觉得 awesome-softwaredocs-skill 对你有帮助，欢迎给个 Star！

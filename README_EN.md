@@ -1,6 +1,6 @@
 <div align="center">
 
-# awsome-softwaredocs-skill
+# awesome-softwaredocs-skill
 
 **Professional Software Engineering Skill** — Build industry-standard software projects from scratch
 
@@ -15,7 +15,7 @@
 
 ---
 
-## Why awsome-softwaredocs-skill?
+## Why awesome-softwaredocs-skill?
 
 | Scenario | Without it | With it |
 |----------|-----------|---------|
@@ -50,21 +50,21 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/Freakz2z/awsome-softwaredocs-skill.git
+git clone https://github.com/Freakz2z/awesome-softwaredocs-skill.git
 
 # Install the skill
 mkdir -p ~/.claude/skills
-cp -r awsome-softwaredocs-skill/skills/awsome-softwaredocs-skill ~/.claude/skills/
+cp -r awesome-softwaredocs-skill/skills/awesome-softwaredocs-skill ~/.claude/skills/
 ```
 
 ### Method 2: Install from Plugin Marketplace
 
 ```bash
 # 1. Add the plugin marketplace
-/plugin marketplace add https://github.com/Freakz2z/awsome-softwaredocs-skill
+/plugin marketplace add https://github.com/Freakz2z/awesome-softwaredocs-skill
 
 # 2. Install the skill
-/plugin install awsome-softwaredocs-skill@awsome-softwaredocs-market
+/plugin install awesome-softwaredocs-skill@awesome-softwaredocs-market
 ```
 
 ## Usage
@@ -80,12 +80,12 @@ User: Generate requirements specification
 ## Project Structure
 
 ```
-awsome-softwaredocs-skill/
+awesome-softwaredocs-skill/
 ├── .claude-plugin/
 │   ├── marketplace.json      # Marketplace config
 │   └── plugin.json           # Plugin config
 ├── skills/
-│   └── awsome-softwaredocs-skill/
+│   └── awesome-softwaredocs-skill/
 │       ├── SKILL.md          # Skill definition
 │       └── templates/        # Template directory
 │           ├── zh/           # Chinese templates
@@ -157,4 +157,4 @@ MIT License · Copyright (c) 2026
 
 ## If Helpful, Please Give a ⭐
 
-If awsome-softwaredocs-skill helps you, please give it a Star!
+If awesome-softwaredocs-skill helps you, please give it a Star!
