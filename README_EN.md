@@ -37,7 +37,7 @@
 └─────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────┐
-│  Mode 2: One-Click Mode (Quick Start)                       │
+│  Mode 2: One-Click Mode (Quick Start)                      │
 │  ─────────────────────────────────────────────               │
 │  You provide: Project name + Type + Core features           │
 │  Auto-generates: Complete structure + All docs + Code        │
@@ -55,9 +55,6 @@ git clone https://github.com/Freakz2z/awsome-softwaredocs-skill.git
 # Install the skill
 mkdir -p ~/.claude/skills
 cp -r awsome-softwaredocs-skill/skills/awsome-softwaredocs-skill ~/.claude/skills/
-
-# Copy templates (optional)
-cp -r awsome-softwaredocs-skill/templates ~/.claude/skills/awsome-softwaredocs-skill/
 ```
 
 ### Method 2: Install from Plugin Marketplace
@@ -67,7 +64,7 @@ cp -r awsome-softwaredocs-skill/templates ~/.claude/skills/awsome-softwaredocs-s
 /plugin marketplace add https://github.com/Freakz2z/awsome-softwaredocs-skill
 
 # 2. Install the skill
-/plugin install awsome-softwaredocs-skill@Freakz2z/awsome-softwaredocs-skill
+/plugin install awsome-softwaredocs-skill@awsome-softwaredocs-market
 ```
 
 ## Usage
@@ -85,18 +82,24 @@ User: Generate requirements specification
 ```
 awsome-softwaredocs-skill/
 ├── .claude-plugin/
-│   └── plugin.json              # Plugin configuration
+│   ├── marketplace.json      # Marketplace config
+│   └── plugin.json           # Plugin config
 ├── skills/
 │   └── awsome-softwaredocs-skill/
-│       └── SKILL.md            # Skill definition
-├── templates/                   # Template directory
-│   ├── zh/                     # Chinese templates
-│   │   ├── docs/               # 9 document templates
-│   │   └── uml-diagrams/        # UML diagram templates
-│   └── en/                     # English templates
-│       ├── docs/
-│       └── uml-diagrams/
-└── marketplace.json             # Marketplace configuration
+│       ├── SKILL.md          # Skill definition
+│       └── templates/        # Template directory
+│           ├── zh/           # Chinese templates
+│           │   ├── docs/     # 9 document templates
+│           │   └── uml-diagrams/  # UML diagram templates
+│           └── en/           # English templates
+│               ├── docs/
+│               └── uml-diagrams/
+├── README.md
+├── README_EN.md
+├── CONTRIBUTING.md
+├── CONTRIBUTING_EN.md
+├── LICENSE
+└── .gitignore
 ```
 
 ## Core Features

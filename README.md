@@ -54,9 +54,6 @@ git clone https://github.com/Freakz2z/awsome-softwaredocs-skill.git
 # 安装技能
 mkdir -p ~/.claude/skills
 cp -r awsome-softwaredocs-skill/skills/awsome-softwaredocs-skill ~/.claude/skills/
-
-# 复制模板文件（可选）
-cp -r awsome-softwaredocs-skill/templates ~/.claude/skills/awsome-softwaredocs-skill/
 ```
 
 ### 方式二：从插件市场安装
@@ -66,7 +63,7 @@ cp -r awsome-softwaredocs-skill/templates ~/.claude/skills/awsome-softwaredocs-s
 /plugin marketplace add https://github.com/Freakz2z/awsome-softwaredocs-skill
 
 # 2. 安装技能
-/plugin install awsome-softwaredocs-skill@Freakz2z/awsome-softwaredocs-skill
+/plugin install awsome-softwaredocs-skill@awsome-softwaredocs-market
 ```
 
 ## 使用方法
@@ -84,18 +81,24 @@ cp -r awsome-softwaredocs-skill/templates ~/.claude/skills/awsome-softwaredocs-s
 ```
 awsome-softwaredocs-skill/
 ├── .claude-plugin/
-│   └── plugin.json              # 插件配置
+│   ├── marketplace.json      # 市场配置
+│   └── plugin.json           # 插件配置
 ├── skills/
 │   └── awsome-softwaredocs-skill/
-│       └── SKILL.md            # 技能定义
-├── templates/                   # 模板目录
-│   ├── zh/                     # 中文模板
-│   │   ├── docs/               # 9份文档模板
-│   │   └── uml-diagrams/        # UML图表模板
-│   └── en/                     # 英文模板
-│       ├── docs/
-│       └── uml-diagrams/
-└── marketplace.json             # 市场配置
+│       ├── SKILL.md          # 技能定义
+│       └── templates/         # 模板目录
+│           ├── zh/            # 中文模板
+│           │   ├── docs/      # 9份文档模板
+│           │   └── uml-diagrams/  # UML图表模板
+│           └── en/           # 英文模板
+│               ├── docs/
+│               └── uml-diagrams/
+├── README.md
+├── README_EN.md
+├── CONTRIBUTING.md
+├── CONTRIBUTING_EN.md
+├── LICENSE
+└── .gitignore
 ```
 
 ## 核心功能
