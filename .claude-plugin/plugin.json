@@ -1,0 +1,9 @@
+{
+  "name": "awsome-softwaredocs-skill",
+  "description": "帮助零基础用户生成专业软件工程文档和UML图表",
+  "version": "1.1.0",
+  "author": {
+    "name": "Freakz2z",
+    "email": "freak050321@gmail.com"
+  }
+}
